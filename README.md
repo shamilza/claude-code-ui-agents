@@ -23,24 +23,30 @@ prompts/
 
 ## 📝 Prompt Format
 
-Each prompt follows this structure:
+Each prompt follows this agent-style structure:
 
 ```
-## Prompt Title
+---
+name: [agent-name]
+description: Use this agent when you need [expertise area]. Examples: [usage examples]
+model: sonnet
+---
+
+# Prompt Title
 **Category:** [category-name]
 **Difficulty:** Beginner/Intermediate/Advanced
 **Tags:** #ui #design #react #css
 
-### Description
+## Description
 [Description of what the prompt does]
 
-### Prompt
+## Prompt
 [The actual prompt text]
 
-### Example Usage
+## Example Usage
 [Example of how to use the prompt]
 
-### Sample Output
+## Sample Results
 [Examples of what the prompt might generate]
 ```
 
@@ -68,13 +74,30 @@ For detailed contribution guidelines, please see [CONTRIBUTING.md](CONTRIBUTING.
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
-## 🌟 Popular Categories
+## 🌟 Available Prompts
 
-- **🎨 UI Design**: Interface design prompts
-- **⚛️ Components**: React, Vue, Angular component prompts  
-- **📱 Responsive**: Mobile-friendly design prompts
-- **♿ Accessibility**: Accessible web application prompts
-- **🎭 Animation**: Smooth animations and transitions
+### 🎨 UI Design (3 prompts)
+- **Design System Generator**: Comprehensive design systems with tokens and components
+- **Universal UI/UX Design Methodology**: Adaptive design methodology for any project type
+- **Mobile Design Philosophy**: Apple-level mobile design with touch interfaces
+
+### ⚛️ Components (1 prompt)
+- **React Component Architect**: Modern TypeScript React components with accessibility
+
+### 🌐 Web Development (1 prompt)
+- **CSS Architecture Specialist**: Scalable CSS organization for large projects
+
+### 🔍 UX Research (1 prompt)
+- **User Persona Creator**: Data-driven personas for product development
+
+### 🎭 Animation (1 prompt)
+- **Micro-Interactions Expert**: Performance-optimized UI animations
+
+### 📱 Responsive (1 prompt)
+- **Mobile-First Layout Expert**: Responsive layouts optimized for mobile devices
+
+### ♿ Accessibility (1 prompt)
+- **ARIA Implementation Specialist**: WCAG-compliant accessibility for complex UI components
 
 ## 📞 Contact
 

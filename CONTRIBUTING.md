@@ -23,9 +23,15 @@ You can contribute in the following ways:
 
 ## 📂 Prompt Format
 
-When adding new prompts, use this format:
+When adding new prompts, use this agent-style format:
 
 ```markdown
+---
+name: [descriptive-agent-name]
+description: Use this agent when you need [specific expertise area]. Examples: [practical usage examples]
+model: sonnet
+---
+
 # [Prompt Title]
 
 **Category:** [category-name]
@@ -96,11 +102,13 @@ git push origin your-branch-name
 
 Before opening a pull request, check:
 
-- [ ] 📝 Follows the prompt format?
-- [ ] 📂 In the correct category?
-- [ ] 💡 Example usage included?
+- [ ] 📝 Follows the agent-style prompt format with YAML frontmatter?
+- [ ] 🤖 Agent name is descriptive and specific to expertise area?
+- [ ] 📄 Agent description clearly explains when to use this prompt?
+- [ ] 💡 Includes practical usage examples in description?
+- [ ] 📂 Placed in the correct category?
 - [ ] 🏷️ Appropriate tags included?
-- [ ] 📋 Clear and understandable?
+- [ ] 📋 Clear and understandable content?
 - [ ] 🧪 Tested with Claude?
 
 ## 📊 Categories
